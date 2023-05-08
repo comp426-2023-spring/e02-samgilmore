@@ -2,9 +2,9 @@
 <html lang="en">
   <head>
     <title>Rock, Paper, Scissors!</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles.css" />
+    <meta charset="UTF-8"></meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+    <link rel="stylesheet" href="./styles.css"></link>
     <script src="./scripts.js" defer></script>
   </head>
   <body>
@@ -28,51 +28,48 @@
           name="play-mode"
           value="random"
           checked
-        />
-        <label for="random-draw">Random Draw</label><br />
+        ></input>
+        <label for="random-draw">Random Draw</label><br></br>
         <input
           type="radio"
           id="play-opponent"
           name="play-mode"
           value="opponent"
-        />
+          ></input>
         <label for="play-opponent">Play Opponent</label>
       </section>
 
       <section id="choices-section" style="display: none">
         <h2>Your Choice:</h2>
-        <input type="radio" id="rock" name="choice" value="rock" checked />
+        <input type="radio" id="rock" name="choice" value="rock" checked></input>
         <label for="rock"
-          ><img src="./img/rock.jpg" alt="Rock" width="50" height="50"
-        /></label>
-        <input type="radio" id="paper" name="choice" value="paper" />
+          ><img src="./img/rock.jpg" alt="Rock" width="50" height="50"></img></label>
+        <input type="radio" id="paper" name="choice" value="paper"></input>
         <label for="paper"
-          ><img src="./img/paper.jpg" alt="Paper" width="50" height="50"
-        /></label>
-        <input type="radio" id="scissors" name="choice" value="scissors" />
+          ><img src="./img/paper.jpg" alt="Paper" width="50" height="50"></img></label>
+        <input type="radio" id="scissors" name="choice" value="scissors"></input>
         <label for="scissors"
-          ><img src="./img/scissors.jpg" alt="Scissors" width="50" height="50"
-        /></label>
+          ><img src="./img/scissors.jpg" alt="Scissors" width="50" height="50"></img></label>
         <input
           type="radio"
           id="lizard"
           name="choice"
           value="lizard"
           style="display: none"
-        />
-        <label for="lizard" style="display: none"
-          ><img src="./img/lizard.jpg" alt="Lizard" width="50" height="50"
-        /></label>
+        ></input>
+        <label for="lizard" style="display: none">
+          <img src="./img/lizard.jpg" alt="Lizard" width="50" height="50"></img>
+        </label>
         <input
           type="radio"
           id="spock"
           name="choice"
           value="spock"
           style="display: none"
-        />
+        ></input>
         <label for="spock" style="display: none"
           ><img src="./img/spock.jpg" alt="Spock" width="50" height="50"
-        /></label>
+        ></img></label>
       </section>
 
       <section id="results-section" style="display: none">
@@ -81,8 +78,8 @@
       </section>
 
       <div>
-        <button id="play-button">Play</button>
-        <button id="reset-button" style="display: none">Reset</button>
+        <button id="play-button" type="button">Play</button>
+        <button id="reset-button" type="button" style="display: none">Reset</button>
       </div>
 
       <div>
@@ -91,7 +88,7 @@
           href="https://en.wikipedia.org/wiki/Rock_paper_scissors"
           target="_blank"
           >Rock, Paper, Scissors Rules</a
-        ><br />
+        ><br></br>
         <a
           href="https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock"
           target="_blank"
